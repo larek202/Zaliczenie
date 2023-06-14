@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <title>Mapa Leaflet</title>
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <form id="detailsForm">
+    <label for="nameInput">Nazwa:</label>
+    <input id="nameInput" type="text">
+    <label for="descriptionInput">Opis:</label>
+    <textarea id="descriptionInput"></textarea>
+    <label for="coordinatesInput">Koordynaty:</label>
+    <input id="coordinatesInput" type="text" readonly>
+  </form>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
