@@ -8,3 +8,5 @@ Insctrukcja do projektu
   
 2) Zbudować projekt
  "   npx webpack --mode development   "
+
+Plik index.html gotowy dla używania.
